@@ -32,15 +32,6 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 	</servlet-mapping>
 
 	<servlet>
-		<servlet-name>edit_linkdata</servlet-name>
-		<servlet-class>ac.tsuda.EditLinkDataServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>edit_linkdata</servlet-name>
-		<url-pattern>/edit</url-pattern>
-	</servlet-mapping>
-
-	<servlet>
 		<servlet-name>del_linkdata</servlet-name>
 		<servlet-class>ac.tsuda.DelLinkDataServlet</servlet-class>
 	</servlet>

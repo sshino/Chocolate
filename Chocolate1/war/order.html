@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>ChocoShop</title>
+<script type="text/javascript" src="lib.js"></script>
+<script type="text/javascript"></script>
+</head>
+<body onload="getData(null);" bgcolor="#CD853F">
+	<br>
+	<br>
+	<center>
+		<h1>世界のチョコ屋さん</h1>
+		<a href="top.html">top</a> <a
+			href="order.html">order</a> <a
+			href="history.html">history</a>
+
+			<h1>- 商品一覧 -</h1>
+			<h2>お好きな輸入したいチョコを選んでください。</h2>
+			<h3>ハワイ : マカダミアナッツチョコ : １０００円</h3>
+			<h3>アメリカ : キスチョコ : ７００円</h3>
+			<h3>イタリア : カントチーニチョコ : ４００円</h3>
+			<h3>オーストラリア : ティムタムチョコ : ４００円</h3>
+			<h3>スイス : ホワイトアンドゴールドチョコ : ３０００円</h3>
+			<h3>スイス　: リンツ : １５００円</h3>
+			<h3>ベルギー : ゴディバ : ２０００円</h3>
+			<h3>ベルギー　: ピエールマルコリーニ : ３５００円</h3>
+			<h2>order</h2>
+			
+			<center>
+				<table>
+					<form method="post" action="/add">
+						<tr>
+							<th>お客様の名前:</th>
+							<td><input type="text" name="title"></td>
+						</tr>
+						<tr>
+							<th>国名:</th>
+							<td><input type="text" name="address"></td>
+						</tr>
+						<tr>
+							<th>商品名:</th>
+							<td><input type="text" name="item"></td>
+						</tr>
+						<tr>
+							<th>値段:</th>
+							<td><input type="text" name="price"></td>
+						</tr>
+						<tr>
+							<th></th>
+							<td><input type="submit" value="注文"></td>
+						</tr>
+					</form>
+				</table>
+			</center>
+			<br>
+			<br>
+	</center>
+</body>
+</html>
